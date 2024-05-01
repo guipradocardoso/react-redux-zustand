@@ -7,7 +7,7 @@ export function Video() {
             width="100%"
             height="100%"
             controls
-            url="https://www.youtube.com/watch?v=gFeMYc61uac"
+            url="https://www.youtube.com/watch?v=yJnPJshAPuM"
          />
       </div>
    )
