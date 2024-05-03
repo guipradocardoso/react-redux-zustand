@@ -60,7 +60,7 @@ export const useStore = create<PlayerState>((set, get) => {
          const { currentLessonIndex, currentModuleIndex, course } = get()
 
          const nextLessonIndex = currentLessonIndex + 1
-         const nextLesson = course?.modules[currentModuleIndex].lessons
+         const nextLesson = course?.modules[currentModuleIndex].lessons[nextLessonIndex]
 
          if (nextLesson) {
             set({ currentLessonIndex: nextLessonIndex })
